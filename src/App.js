@@ -1,4 +1,5 @@
 import './App.css';
+import RestApi from './Pages/RestApi';
 
 function App() {
   return (
@@ -6,8 +7,9 @@ function App() {
       <header className="App-header">
         
         <p>
-          welcome
+        Welcome
         </p>
+        <RestApi/>
       </header>
     </div>
   );
