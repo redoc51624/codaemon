@@ -1,0 +1,36 @@
+.container-aud {
+    background: lightslategrey;
+    height: 350px;
+    width: 350px;
+    box-shadow: 14px 11px 36px;
+    border-radius: 25px;
+}
+
+.container-aud img{
+    width: 260px;
+    margin: 26px 44px;
+    height: auto;
+}
+
+.inner-container {
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+}
+.btn {
+    width: 95px;
+    color: white;
+    background: rgb(56, 53, 53);
+    height: 30px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+@media screen and (max-width: 600px) {
+    .inner-container {
+        position: absolute;
+        bottom: 90px;
+        left: 20px;
+    }
+  }
+

@@ -16,7 +16,7 @@ const RestApi = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>Home Page</h1>
+        <h1>RestApi Data from db.json file</h1>
         <table className="table border shadow">
           <thead className="thead-dark">
             <tr>
